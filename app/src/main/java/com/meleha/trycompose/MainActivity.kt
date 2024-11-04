@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.sp
 import com.meleha.trycompose.ui.btnTextfieldCheckBoxes.ScrollableScreen
 import com.meleha.trycompose.ui.lazyColumn.FastLazyColumn
 import com.meleha.trycompose.ui.lazyColumn.SimpleLazyColumn
+import com.meleha.trycompose.ui.navigationBar.NavigationScreen
 import com.meleha.trycompose.ui.perfectLazyColumn.ui.PerfectLazyColumn
 
 data class CounterState(
@@ -38,7 +39,8 @@ class MainActivity : ComponentActivity() {
             //ScrollableScreen()
             //SimpleLazyColumn()
             //FastLazyColumn()
-            PerfectLazyColumn()
+            //PerfectLazyColumn()
+            NavigationScreen()
         }
     }
 
