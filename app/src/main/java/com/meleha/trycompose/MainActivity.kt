@@ -26,6 +26,7 @@ import com.meleha.trycompose.ui.lazyColumn.FastLazyColumn
 import com.meleha.trycompose.ui.lazyColumn.SimpleLazyColumn
 import com.meleha.trycompose.ui.navigationBar.NavigationScreen
 import com.meleha.trycompose.ui.perfectLazyColumn.ui.PerfectLazyColumn
+import com.meleha.trycompose.ui.simpleNavigation.SimpleNavigationScreen
 
 data class CounterState(
     val number: Int = 0
@@ -40,7 +41,8 @@ class MainActivity : ComponentActivity() {
             //SimpleLazyColumn()
             //FastLazyColumn()
             //PerfectLazyColumn()
-            NavigationScreen()
+            //NavigationScreen()
+            SimpleNavigationScreen()
         }
     }
 
